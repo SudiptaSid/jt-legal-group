@@ -1,0 +1,742 @@
+/* ---------------------------------------------------------------------------------------------- 
+                                        Common Css 
+---------------------------------------------------------------------------------------------- */
+@font-face {
+    font-family: greatvibes-regular;
+    src: url(../fonts/greatvibes-regular.otf);
+}
+::selection {
+    background-color:#045993;
+    color:#fff;
+}
+::-moz-selection {
+    background-color:#045993;
+    color:#fff;
+}
+body {
+    overflow-x: hidden;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight:400;
+    font-family: 'Raleway', sans-serif;
+    background-color:#f8f8f8;
+}
+a, a:focus, a:hover {
+    transition: .6s;
+    outline: 0;
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0 0 15px 0px;
+}
+h1, h2, h3, h4, h5, h6 {}
+p {}
+img {
+    width:100%;
+}
+ol, ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style-type: none;
+}
+.btn {
+    padding:8px 15px;
+    font-size:14px;
+    line-height:24px;
+    font-weight:700;
+    text-transform: capitalize;
+    border:1px solid;
+    border-radius:4px;
+    color:#fff;
+    transition:0.6s;
+    text-shadow:none;
+}
+.btn:hover,
+.btn:focus {
+    border:1px solid;
+    outline:none;
+    box-shadow:none;
+}
+.btn_yellow {
+    background-color:#f49916;
+    color:#fff;
+    border-color:#f49916;
+}
+.btn_yellow:hover,
+.btn_yellow:focus {
+    background-color:#fff;
+    color:#f49916;
+    border-color:#f49916;
+}
+.btn_blue {
+    background-color:#045993;
+    color:#fff;
+    border-color:#045993;
+}
+.btn_blue:hover,
+.btn_blue:focus {
+    background-color:#fff;
+    color:#045993;
+    border-color:#045993;
+}
+.form-control {
+    padding:8px 15px;
+    font-size:14px;
+    line-height:24px;
+    border:1px solid;
+    border-radius:4px;
+    box-shadow:none;
+}
+.form-control:focus {
+    outline:none;
+    box-shadow:none;
+    border:1px solid;
+}
+.heading {
+    text-align: center;
+    margin-bottom:40px;
+}
+.heading h2 {
+    margin: 0px;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #000;
+    font-size: 36px;
+    line-height: 46px;
+}
+.hide {
+    display: none !important;
+}
+/* ---------------------------------------------------------------------------------------------- 
+                                        Step Form Plugin Css 
+---------------------------------------------------------------------------------------------- */
+#msform {
+    position: relative;
+    margin-bottom: 15em;
+}
+#msform fieldset {
+    position: absolute;
+}
+#msform fieldset:not(:first-of-type) {
+    display: none;
+}
+/* ---------------------------------------------------------------------------------------------- 
+                                        Circle Progress Plugin Css 
+---------------------------------------------------------------------------------------------- */
+.circle {
+    width: 200px;
+    margin:0px 0px 20px 0px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+}
+/* ---------------------------------------------------------------------------------------------- 
+                                        Top Bar Css 
+---------------------------------------------------------------------------------------------- */
+.top_bar {
+    padding:10px 0px;
+}
+.top_bar .grid_left {}
+.top_bar .grid_left .logo {
+    display: inline-block;
+    width: 180px;
+}
+.top_bar .grid_left .logo img {}
+.top_bar .grid_right {
+    text-align: right;
+}
+.top_bar .grid_right .phone {
+    position: relative;
+    padding-left: 30px;
+    display: inline-block;
+}
+.top_bar .grid_right .phone img {
+    position: absolute;
+    width: 20px;
+    left: 0px;
+    top: 10px;
+}
+.top_bar .grid_right .phone span {
+    text-align: left;
+    color: #696969;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 12px;
+}
+.top_bar .grid_right .phone span a {
+    display: block;
+    color: #f49916;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.top_bar .grid_right .phone span a:hover {
+    color: #045993;
+}
+/* ---------------------------------------------------------------------------------------------- 
+                                        Banner Css 
+---------------------------------------------------------------------------------------------- */
+.banner {
+    padding:60px 0px 0px 0px;
+}
+.banner .grid_left {}
+.banner .grid_left .headinh_h1 {
+    color: #3b3b3b;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 46px;
+    line-height: 46px;
+    margin-bottom: 20px;
+}
+.banner .grid_left .headinh_h2 {
+    color: #6b6b6b;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.banner .grid_left .trust {
+    display: table;
+}
+.banner .grid_left .trust li {
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+.banner .grid_left .trust li img {}
+.banner .grid_left form {}
+.banner .grid_left form fieldset {}
+.banner .grid_left form fieldset h6 {
+    margin-bottom: 5px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #5c5c5c;
+    font-family: 'Roboto', sans-serif;
+}
+.banner .grid_left form fieldset h6 span {
+    font-size: 12px;
+    background-color: #3b3b3b;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    position: relative;
+    margin-left: 150px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    top: -10px;
+    font-weight:600;
+}
+.banner .grid_left form fieldset h6 span:after {
+    content: '';
+    position: absolute;
+    bottom: -6px;
+    left: 30px;
+    border-left: 6px solid #fff;
+    border-right: 6px solid #fff;
+    border-top: 6px solid #3b3b3b;
+}
+.banner .grid_left form fieldset select {
+    margin-bottom: 15px;
+    border-color: #e7e7e7;
+    box-shadow: 0px 0px 15px 1px #c8c8c8;
+}
+.banner .grid_left form fieldset .btn {
+    width: 200px;
+    padding: 6px 15px;
+}
+.banner .grid_left form fieldset .link_v {
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    font-weight: 600;
+    color: #696969;
+    margin-right: 20px;
+    cursor:pointer;
+}
+.banner .grid_left form fieldset .link_v:hover,
+.banner .grid_left form fieldset .link_v:focus {
+    outline:none;
+    color: #f49916;
+}
+/* ---------------------------------------------------------------------------------------------- 
+                                        Client Logo Css 
+---------------------------------------------------------------------------------------------- */
+.client_logo {
+    background-color:#2b2b2b;
+    padding:40px 0px;
+}
+.client_logo ul {
+    display: table;
+    width: 100%;
+}
+.client_logo ul li {
+    display: table-cell;
+    width: 20%;
+    padding: 0px 15px;
+    vertical-align: middle;
+}
+.client_logo ul li a {}
+.client_logo ul li a img {}
+.client_logo ul li a:hover img {}
+/* ---------------------------------------------------------------------------------------------- 
+                                        How Latigation Works Css 
+---------------------------------------------------------------------------------------------- */
+.latigation {
+    padding:60px 0px;
+    background-color: #ececec;
+}
+.latigation ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.latigation ul li {
+    flex: 0 0 20%;
+    max-width: 20%;
+    text-align: center;
+}
+.latigation ul li .circle {
+    width:150px;
+    margin-bottom:10px;
+}
+.latigation ul li .circle canvas {
+    background-color: #fafafa;
+    border-radius: 50%;
+}
+.latigation ul li .circle img {
+    width: 60px;
+    position: absolute;
+    top: 40px;
+    left: 45px;
+}
+.latigation ul li p {
+    margin: 0px;
+    color: #000;
+    font-weight: 500;
+}
+.latigation .btn_sec {
+    margin-top:40px;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+.latigation .btn_sec .btn_blue {
+    width: 300px;
+}
+/* ---------------------------------------------------------------------------------------------- 
+                                        Service Css 
+---------------------------------------------------------------------------------------------- */
+.service {
+    padding:60px 0px;
+}
+.service ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-bottom: 1px solid #d1d1d1;
+    margin-bottom: 30px;
+}
+.service ul:nth-child(even) {
+    flex-direction:row-reverse;
+}
+.service ul:last-child {
+    margin-bottom:0px;
+    border-bottom:none;
+}
+.service ul li {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.service ul li .grid_img {
+    width: 70%;
+    margin: auto;
+}
+.service ul li .grid_img img {}
+.service ul li .grid_details {
+    padding: 80px 0px;
+}
+.service ul li .grid_details h3 {
+    font-weight: 700;
+    color: #000;
+    font-size: 36px;
+    line-height: 46px;
+}
+.service ul li .grid_details p {
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    color:#000;
+}
+.service ul li .grid_details a {
+    color:#f49916;
+    font-weight:600;
+}
+.service ul li .grid_details a:hover {
+    text-decoration: underline;
+}
+/* ---------------------------------------------------------------------------------------------- 
+                                        Achievements Css 
+---------------------------------------------------------------------------------------------- */
+.achievements {
+    padding:60px 0px;
+    background-color:#efefef;
+}
+.achievements .grid_left {
+
+}
+.achievements .grid_left:after {
+    content:'';
+    background-image: url(../images/arrow.png);
+    position: absolute;
+    width: 40px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    right: 0;
+    top: 40%;
+}
+.achievements .grid_left h3 {
+    font-weight: 700;
+    color: #000;
+    font-size: 36px;
+    line-height: 40px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.achievements .grid_left p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #000;
+    margin:0px;
+}
+.achievements .grid_left ul.profile_lis {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom:3em;
+    margin-top:3em;
+}
+.achievements .grid_left ul.profile_lis li {
+    flex: 0 0 25%;
+    max-width: 25%;
+    margin-right: 5em;
+}
+.achievements .grid_left ul.profile_lis li .img_sec {
+    margin-bottom:10px;
+}
+.achievements .grid_left ul.profile_lis li .img_sec img {}
+.achievements .grid_left ul.profile_lis li .details {
+    font-family: 'Roboto', sans-serif;
+}
+.achievements .grid_left ul.profile_lis li .details .name {
+    font-weight:700;
+    color:#666;
+    font-size: 12px;
+    line-height: 12px;
+    margin-bottom: 5px;
+}
+.achievements .grid_left ul.profile_lis li .details .descr {
+    font-weight: 300;
+    color: #767676;
+    margin: 0;
+    font-size: 12px;
+    line-height: 16px;
+}
+.achievements .grid_left .btn_yellow {
+    width: 300px;
+}
+.achievements .grid_right {
+
+}
+.achievements .grid_right ul {
+    padding-left: 60px;
+}
+.achievements .grid_right ul li {
+    position: relative;
+    border-bottom: 1px solid #bbb;
+    padding: 0px 0px 20px 80px;
+    margin-bottom: 20px;
+}
+.achievements .grid_right ul li:last-child {
+    margin-bottom: 0px;
+    border-bottom: 0px;
+}
+.achievements .grid_right ul li img {
+    position: absolute;
+    width: 50px;
+    left: 10px;
+    top: 5px;
+}
+.achievements .grid_right ul li .details {
+    
+}
+.achievements .grid_right ul li .details h2 {
+    color: #004d8e;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    margin-bottom: 0px;
+}
+.achievements .grid_right ul li .details span {
+    color:#4c4c4c;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 30px;
+}
+/* ---------------------------------------------------------------------------------------------- 
+                                        News & Article Css 
+---------------------------------------------------------------------------------------------- */
+.news_article {
+    padding:60px 0px;
+}
+.news_article .heading {
+    margin-bottom:60px;
+}
+.news_article ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.news_article ul li {
+    flex: 0 0 50%;
+    max-width: 50%;
+    border-right: 1px solid #999;
+    padding: 0px 50px;
+}
+.news_article ul li:last-child {
+    border-right: none;
+}
+.news_article ul li .date {
+    font-family: 'Roboto', sans-serif;
+    color:#636363;
+}
+.news_article ul li .title {
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 700;
+    color: #000;
+}
+.news_article ul li p {
+    font-family: 'Roboto', sans-serif;
+    color:#2f2f2f;
+}
+.news_article ul li p a {
+    color:#f49916;
+}
+.news_article ul li p a:hover {
+    text-decoration: underline;
+}
+/* ---------------------------------------------------------------------------------------------- 
+                                        Pricing Css 
+---------------------------------------------------------------------------------------------- */
+.pricing {
+    padding:60px 0px;
+    background-color:#fff;
+}
+.pricing ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.pricing ul li {
+    flex: 0 0 25%;
+    max-width: 25%;
+    border-right: 1px solid #999;
+    padding: 20px 30px;
+    text-align: center;
+}
+.pricing ul li:last-child {
+    border-right: none;
+}
+.pricing ul li h3 {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #000;
+}
+.pricing ul li h3 span {
+    font-family: 'Roboto', sans-serif;
+    font-weight:200;
+    display: block;
+}
+.pricing ul li a {
+    display: block;
+    margin-bottom: 15px;
+}
+.pricing ul li a img {
+    
+}
+.pricing ul li p {
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+    margin:0px;
+}
+/* ---------------------------------------------------------------------------------------------- 
+                                        Facebook Review Css 
+---------------------------------------------------------------------------------------------- */
+.f_review {
+    padding:60px 0px;
+}
+.f_review .heading {
+
+}
+.f_review .heading h2 {
+    font-weight:600;
+}
+.f_review .heading img {
+    width: 150px;
+    position: relative;
+    top: -5px;
+}
+.f_review ul {
+    display:flex;
+    flex-wrap:wrap;
+}
+.f_review ul li {
+    flex:0 0 33.33333%;
+    max-width:33.33333%;
+    border-right:1px solid #999;
+    padding:0px 20px;
+}
+.f_review ul li:last-child {
+    border-right:none;
+}
+.f_review ul li h4 {
+    color:#213356;
+    font-family: 'Roboto', sans-serif;
+    font-weight:700;
+    margin-top:15px;
+}
+.f_review ul li p {
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+    color:#000;
+}
+.f_review ul li .sign {
+    font-family: greatvibes-regular;
+    font-size: 30px;
+    display: block;
+    line-height: 40px;
+}
+/* ---------------------------------------------------------------------------------------------- 
+                                        Call Now Css 
+---------------------------------------------------------------------------------------------- */
+.call_now {
+    padding:60px 0px;
+    background-color:#eeeeee;
+    text-align: center;
+}
+.call_now h4 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 200;
+    color: #000;
+    margin-bottom: 10px;
+}
+.call_now h2 {
+    color: #045993;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin: 0px;
+    font-size: 46px;
+    line-height: 46px;
+}
+/* ---------------------------------------------------------------------------------------------- 
+                                        Footer 1 Css 
+---------------------------------------------------------------------------------------------- */
+.footer_1 {
+    padding:50px 0px;
+    border-bottom:1px solid #999;
+    background-color:#2f2f2f;
+}
+.footer_1 .grid_left {
+    font-family: 'Roboto', sans-serif;
+}
+.footer_1 .grid_left .links {
+    margin-bottom:30px;
+}
+.footer_1 .grid_left .links li {
+    display: inline-block;
+    padding-right:15px;
+}
+.footer_1 .grid_left .links li a {
+    text-transform: capitalize;
+    color:#a9a9a9;
+    letter-spacing:2px;
+}
+.footer_1 .grid_left .links li a:hover {
+    text-decoration: underline;
+    color:#fff;
+}
+.footer_1 .grid_left p {
+    margin:0px;
+    color:#6b6b6b;
+}
+.footer_1 .grid_right {
+
+}
+.footer_1 .grid_right .social {
+    margin-top:20px;
+}
+.footer_1 .grid_right .social li {
+    display: inline-block;
+    margin-left:5px;
+}
+.footer_1 .grid_right .social li a {
+    display: block;
+    width:34px;
+    height:34px;
+    font-size:18px;
+    line-height:34px;
+    border-radius:50%;
+    background-color:transparent;
+    border:2px solid #a9a9a9;
+    color:#a9a9a9;
+    text-align: center;
+}
+.footer_1 .grid_right .social li a:hover {
+    background-color:transparent;
+    border:2px solid #f49916;
+    color:#f49916;
+}
+/* ---------------------------------------------------------------------------------------------- 
+                                        Footer 2 Css 
+---------------------------------------------------------------------------------------------- */
+.footer_2 {
+    padding:50px 0px;
+    background-color:#2f2f2f;
+}
+.footer_2 .grid_left {}
+.footer_2 .grid_left .f_logo {
+    display: inline-block;
+    width: 150px;
+}
+.footer_2 .grid_left .f_clnt {
+    display: inline-block;
+    width: 80px;
+    margin-left: 20px;
+}
+.footer_2 .grid_right {
+    text-align: right;
+}
+.footer_2 .grid_right .address {
+    display: inline-block;
+    text-align: left;
+    color: #cccccc;
+}
+.footer_2 .grid_right .address p {
+    margin-bottom:5px;
+}
+.footer_2 .grid_right .address p:last-child {
+    margin-bottom:0px;
+}
+.footer_2 .grid_right .btn_sec {
+    float: right;
+    clear: both;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.footer_2 .grid_right .btn_sec .btn {
+    width:140px;
+}

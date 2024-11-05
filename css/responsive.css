@@ -1,0 +1,385 @@
+/* ------------------------ 
+    Max Width 1366px 
+------------------------ */
+@media (max-width: 1366px) {
+
+}
+/* ------------------------ 
+    Max Width 1280px 
+------------------------ */
+@media (max-width: 1280px) {
+
+}
+/* ------------------------ 
+    Max Width 1080px 
+------------------------ */
+@media (max-width: 1080px) {
+
+}
+/* ------------------------ 
+    Max Width 1024px 
+------------------------ */
+@media (max-width: 1024px) {
+
+}
+/* ------------------------ 
+    Min Width 1000px 
+------------------------ */
+@media (min-width: 1000px) {
+
+}
+/* ------------------------ 
+    Max Width 966px 
+------------------------ */
+@media (max-width: 966px) {
+.banner .grid_left .headinh_h1 {
+    font-size: 36px;
+    line-height: 36px;
+}
+.banner .grid_right .img_sec {
+    position: absolute;
+    bottom: 0;
+}
+.banner .grid_left .trust {
+    margin-bottom: 20px;
+}
+.latigation ul li .circle canvas {
+    width: 120px;
+}
+.latigation ul li .circle img {
+    width: 50px;
+    top: 30px;
+    left: 50px;
+}
+.service ul li .grid_img {
+    width: 100%;
+}
+.service ul li .grid_details {
+    padding: 40px 0px;
+}
+.service ul li .grid_details h3 {
+    font-size: 28px;
+    line-height: 34px;
+}
+.achievements .grid_left h3 {
+    font-size: 26px;
+    line-height: 30px;
+}
+.achievements .grid_right ul {
+    padding-left: 20px;
+}
+.achievements .grid_right ul li {
+    padding: 0px 0px 10px 60px;
+    margin-bottom: 10px;
+}
+.achievements .grid_right ul li img {
+    width: 40px;
+}
+.achievements .grid_right ul li .details h2 {
+    font-size: 26px;
+    line-height: 26px;
+}
+.news_article ul li {
+    padding: 0px 30px;
+}
+.news_article ul li .title {
+    font-size: 24px;
+    line-height: 34px;
+}
+.pricing ul li {
+    padding: 20px 10px;
+}
+.footer_2 .grid_right .address {
+    text-align: right;
+}
+.footer_2 .grid_right .btn_sec {
+    float: none;
+}
+}
+/* ------------------------ 
+    Max Width 853px 
+------------------------ */
+@media (max-width: 853px) {
+
+}
+/* ------------------------ 
+    Max Width 800px 
+------------------------ */
+@media (max-width: 800px) {
+
+}
+/* ------------------------ 
+    Min Width 769px 
+------------------------ */
+@media (min-width: 769px) {
+
+}
+/* ------------------------ 
+    Max Width 768px 
+------------------------ */
+@media (max-width: 768px) {
+
+}
+/* ------------------------ 
+    Max Width 736px 
+------------------------ */
+@media (max-width: 736px) {
+.banner .grid_right .img_sec {
+    right: -80px;
+    width: 40%;
+}
+.client_logo ul li {
+    padding:0px 5px;
+}
+.latigation ul {
+    justify-content:center;
+}
+.latigation ul li {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+    margin-bottom: 2em;
+}
+.service ul li .grid_details {
+    padding-top:0px;
+}
+.service ul li .grid_details h3 {
+    font-size: 24px;
+    line-height: 30px;
+}
+.achievements .grid_left {
+    margin-bottom:5em;
+}
+.achievements .grid_left:after {
+    display: none;
+}
+.achievements .grid_right ul {
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.achievements .grid_right ul li {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.achievements .grid_right ul li:last-child {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #bbb;
+}
+.pricing ul li {
+    flex: 0 0 50%;
+    max-width: 50%;
+    border-right: 1px solid #999;
+    margin-bottom: 1em;
+}
+.pricing ul li:last-child {
+    border-right: 1px solid #999;
+}
+.footer_1 .grid_left {
+    text-align: center;
+}
+.footer_1 .grid_left .links {
+    margin-bottom: 10px;
+}
+.footer_1 .grid_right {
+    text-align: center;
+}
+.footer_2 .grid_left {
+    text-align: center;
+    margin-bottom: 2em;
+}
+.footer_2 .grid_right {
+    text-align: center;
+}
+.footer_2 .grid_right .btn_sec {
+    float: right;
+}
+}
+/* ------------------------ 
+    Max Width 720px 
+------------------------ */
+@media (max-width: 720px) {
+
+}
+/* ------------------------ 
+    Max Width 690px 
+------------------------ */
+@media (max-width: 690px) {
+
+}
+/* ------------------------ 
+    Max Width 667px 
+------------------------ */
+@media (max-width: 667px) {
+
+}
+/* ------------------------ 
+    Max Width 640px 
+------------------------ */
+@media (max-width: 640px) {
+#msform {
+    margin-bottom: 12em;
+}
+}
+/* ------------------------ 
+    Max Width 603px 
+------------------------ */
+@media (max-width: 603px) {
+
+}
+/* ------------------------ 
+    Max Width 600px 
+------------------------ */
+@media (max-width: 600px) {
+
+}
+/* ------------------------ 
+    Max Width 568px 
+------------------------ */
+@media (max-width: 568px) {
+.top_bar .grid_left {
+    text-align: center;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.top_bar .grid_right {
+    text-align: center;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 1em;
+}
+}
+/* ------------------------ 
+    Max Width 533px 
+------------------------ */
+@media (max-width: 533px) {
+.banner .grid_right .img_sec {
+    right: 20px;
+    width: 50%;
+    z-index: -1;
+}
+}
+/* ------------------------ 
+    Max Width 480px 
+------------------------ */
+@media (max-width: 480px) {
+.top_bar .grid_right .phone span {
+    font-size: 10px;
+    line-height: 10px;
+}
+.f_review ul  {
+    justify-content:center;
+}
+.f_review ul li {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom:3em;
+}
+}
+/* ------------------------ 
+    Max Width 414px 
+------------------------ */
+@media (max-width: 414px) {
+.banner .grid_left form fieldset h6 span {
+    margin-left:100px;
+}
+.latigation ul li {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.service ul li .grid_details h3 {
+    font-size: 20px;
+    line-height: 24px;
+}
+.achievements .grid_right ul li {
+    padding: 0px 0px 10px 50px;
+}
+.achievements .grid_right ul li img {
+    width: 30px;
+}
+.achievements .grid_right ul li .details h2 {
+    font-size: 22px;
+    line-height: 22px;
+}
+.achievements .grid_right ul li .details span {
+    font-size: 14px;
+    line-height: 26px;
+}
+.news_article ul li {
+    border-right: none;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom:2em;
+}
+.f_review ul li {
+    flex: 0 0 100%;
+    max-width: 100%;
+    border-right: none;
+}
+.call_now h4 {
+    font-size: 24px;
+    line-height: 34px;
+}
+.call_now h2 {
+    font-size: 36px;
+    line-height: 36px;
+}
+}
+/* ------------------------ 
+    Max Width 384px 
+------------------------ */
+@media (max-width: 384px) {
+.heading h2 {
+    font-size: 26px;
+    line-height: 36px;
+}
+.banner .grid_left .headinh_h1 {
+    font-size: 26px;
+    line-height: 26px;
+}
+.banner .grid_left form fieldset h6 span {
+    margin-left: 60px;
+}
+.footer_2 .grid_right .address {
+    text-align: center;
+    display: block;
+}
+.footer_2 .grid_right .btn_sec {
+    float: none;
+    margin-left:0px;
+}
+}
+/* ------------------------ 
+    Max Width 375px 
+------------------------ */
+@media (max-width: 375px) {
+.service ul li {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.service ul li .grid_img {
+    width: 40%;
+}
+.achievements .grid_left ul.profile_lis li {
+    flex: 0 0 35%;
+    max-width: 45%;
+    margin-right: 2em;
+}
+.pricing ul li {
+    flex: 0 0 100%;
+    max-width: 100%;
+    border-right:none;
+    border-bottom:1px solid #999;
+}
+.pricing ul li:last-child {
+    border-right:none;
+    border-bottom:none;
+}
+}
+/* ------------------------ 
+    Max Width 320px 
+------------------------ */
+@media (max-width: 320px) {
+.banner .grid_left form fieldset h6 span {
+    margin-left: 30px;
+}
+}

@@ -1,0 +1,29 @@
+yellow -- f49916
+blue -- 045993
+
+
+
+font-family: 'Raleway', sans-serif; 100 / 200 / 300 / 400 / 500 / 600 / 700 / 800 / 900
+font-family: 'Roboto', sans-serif; 100 / 300 / 400 / 500 / 700 / 900
+
+font-family: greatvibes-regular;
+
+/* ---------------------------------------------------------------------------------------------- 
+
+----------------------------------------------------------------------------------------------  */
+
+
+01 -- Top Bar ---*
+02 -- Banner ---*
+03 -- Client Logo ---*
+04 -- How It Works ---*
+
+05 -- Service ---*
+06 -- Achivments
+07 -- News & Articles
+08 -- Pricing
+
+09 -- Facebook Review
+10 -- Call Now ---*
+11 -- Footer 1 ---*
+12 -- Footer 2 ---*
